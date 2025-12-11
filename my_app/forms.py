@@ -15,7 +15,7 @@ class RegistrationForm(forms.ModelForm):
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ['title', 'content', 'image']  # Adjust based on your Post model fields
+        fields = ['title', 'content', 'image','phone number']  # Adjust based on your Post model fields
 
 class CommentForm(forms.ModelForm):
     class Meta:
